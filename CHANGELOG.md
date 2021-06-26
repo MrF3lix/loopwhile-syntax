@@ -6,6 +6,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [v1.0.1]
+
+- Added support for highlighting numbers
+
 ## [v1.0.0]
 
 - Added support for highlighting keywords (While, Loop, Do, End)
