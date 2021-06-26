@@ -2,7 +2,7 @@
     "name": "loopwhile-syntax",
     "displayName": "LoopWhile Syntax",
     "description": "Syntax highlighting for loop while programs.",
-    "version": "1.0.0",
+    "version": "1.0.1",
 	"author": "Felix Saaro",
 	"publisher": "MrF3lix",
 	"icon": "img/logo.png",
