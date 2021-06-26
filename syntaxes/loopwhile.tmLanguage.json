@@ -1,0 +1,49 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "LoopWhile",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#comment"
+		},
+		{
+			"include": "#constant"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.loopwhile",
+				"match": "\\b(Loop|While|Do|End)\\b"
+			}]
+		},
+		"strings": {
+			"name": "string.quoted.double.loopwhile",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.loopwhile",
+					"match": "\\\\."
+				}
+			]
+		},
+		"comment": {
+			"name": "comment.line.double-slash.loopwhile",
+			"match": "//.*"
+		},
+		"constant": {
+			"name": "constant.character.loopwhile",
+			"match": "x0"
+		}
+	},
+	"scopeName": "main.lw"
+}

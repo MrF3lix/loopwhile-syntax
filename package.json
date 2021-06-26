@@ -1,0 +1,34 @@
+{
+    "name": "loopwhile-syntax",
+    "displayName": "loopwhile syntax",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.46.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "loopwhile",
+                "aliases": [
+                    "LoopWhile",
+                    "loopwhile"
+                ],
+                "extensions": [
+                    ".lw"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "loopwhile",
+                "scopeName": "main.lw",
+                "path": "./syntaxes/loopwhile.tmLanguage.json"
+            }
+        ]
+    }
+}
