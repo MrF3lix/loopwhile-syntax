@@ -6,4 +6,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
-- Initial release
+## [v1.0.0]
+
+- Added support for highlighting keywords (While, Loop, Do, End)
+- Added support for highlighting strings
+- Added support for highlighting inline comments
+- Added support for highlighting `x0`
