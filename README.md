@@ -1,8 +1,9 @@
 # LoopWhile Syntax for Visual Studio Code
 
+![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/MrF3lix.loopwhile-syntax)
 [![GitHub](https://img.shields.io/github/license/MrF3lix/loopwhile-syntax)](https://github.com/MrF3lix/loopwhile-syntax)
 
-![Logo]([./img/logo.png](https://raw.githubusercontent.com/MrF3lix/loopwhile-syntax/v1.0.0/img/logo.png))
+![./img/logo.png](https://raw.githubusercontent.com/MrF3lix/loopwhile-syntax/v1.0.0/img/logo.png)
 
 ## Features
 
